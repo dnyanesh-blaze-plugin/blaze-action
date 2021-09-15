@@ -1,0 +1,23 @@
+# action.yml
+name: 'DockerAction'
+description: 'Run Blazemeter Test from GitHub Action'
+inputs:
+  apikey:  # id of input
+    description: 'API Key'
+    required: true
+    default: 'Test'
+  apisecret:  # id of input
+    description: 'API Secret'
+    required: true
+    default: 'Test'
+  testid:  # id of input
+    description: 'Test Id'
+    required: true
+    default: '0'
+  supportedfolderPath:  # id of input
+    description: 'Supported File Folder'
+    required: false
+    default: '0'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
