@@ -15,7 +15,7 @@ This action allows you to run Blazemeter existing Test
 
 ## Example usage
 
-uses: actions/DockerAction@v1
+uses: dnyanehblazerunner/BlazeAction@v1
 with:
    apikey: 'xxx'
    apisecret: 'xxx'
