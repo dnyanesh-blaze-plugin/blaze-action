@@ -18,6 +18,19 @@ inputs:
     description: 'Supported File Folder'
     required: false
     default: '0'
+  workspaceid:  # id of input
+    description: 'Workspace Id'
+    required: false
+    default: '0'
+  datamodelid:  # id of input
+    description: 'Data Model Id'
+    required: false
+    default: '0'
+  modeldata:  # id of input
+    description: 'Data to be updated in JSON String format'
+    required: false
+    default: '{}'
+  
 runs:
   using: 'docker'
   image: 'Dockerfile'
