@@ -30,6 +30,22 @@ inputs:
     description: 'Data to be updated in JSON String format'
     required: false
     default: '{}'
+  createtest:  # id of input
+    description: 'Create test flag'
+    required: false
+    default: 'false'
+  inputstartfile:  # id of input
+    description: 'Start file for create test'
+    required: false
+    default: ''
+  testname:  # id of input
+    description: 'Test name for creating new test'
+    required: false
+    default: ''
+  projectid:  # id of input
+    description: 'Project Id'
+    required: false
+    default: ''
   
 runs:
   using: 'docker'
