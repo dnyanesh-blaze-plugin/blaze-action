@@ -37,15 +37,15 @@ inputs:
   inputstartfile:  # id of input
     description: 'Start file for create test'
     required: false
-    default: ''
+    default: '0'
   testname:  # id of input
     description: 'Test name for creating new test'
     required: false
-    default: ''
+    default: '0'
   projectid:  # id of input
     description: 'Project Id'
     required: false
-    default: ''
+    default: '0'
   
 runs:
   using: 'docker'
