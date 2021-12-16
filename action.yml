@@ -46,8 +46,8 @@ inputs:
     description: 'Project Id'
     required: false
     default: '0'
-  continuePipeline:
-    description: 'continuePipeline'
+  continuepipeline:
+    description: 'Continue Pipeline'
     required: false
     default: 'true'
   
