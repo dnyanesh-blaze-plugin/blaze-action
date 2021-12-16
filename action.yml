@@ -46,6 +46,10 @@ inputs:
     description: 'Project Id'
     required: false
     default: '0'
+  continuePipeline:
+    description: 'continuePipeline'
+    required: false
+    default: 'true'
   
 runs:
   using: 'docker'
