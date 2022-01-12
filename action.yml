@@ -50,6 +50,10 @@ inputs:
     description: 'Continue Pipeline'
     required: false
     default: 'true'
+  jmeterproperties:
+    description: 'jmeterproperties'
+    required: false
+    default: '0'
   
 runs:
   using: 'docker'
