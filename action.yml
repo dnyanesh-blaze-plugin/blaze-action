@@ -53,7 +53,7 @@ inputs:
   jmeterproperties:
     description: 'jmeterproperties'
     required: false
-    default: '0'
+    default: 'null'
   
 runs:
   using: 'docker'
