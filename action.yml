@@ -54,6 +54,10 @@ inputs:
     description: 'jmeterproperties'
     required: false
     default: 'null'
+  env_variable:
+    description: 'env_variable'
+    required: false
+    default: '{}'
   
 runs:
   using: 'docker'
