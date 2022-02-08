@@ -93,7 +93,7 @@ inputs:
   inputallfiles:
     description: 'upload dependency file'
     required: false
-    default: '0'
+    default: 'null'
   supportedfolderPath:  # id of input
     description: 'Supported File Folder'
     required: false
