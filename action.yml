@@ -30,10 +30,10 @@ inputs:
     description: 'Create test flag'
     required: false
     default: 'false'
-#   inputallfiles:
-#     description: 'upload dependency file'
-#     required: false
-#     default: ''
+  inputallfiles:
+    description: 'upload dependency file'
+    required: false
+    default: '0'
   totalusers:
     description: 'total users'
     required: false
