@@ -25,7 +25,7 @@ inputs:
   inputstartfile:  # id of input
     description: 'Start file for create test'
     required: false
-    default: ''
+    default: '0'
   createtest:  # id of input
     description: 'Create test flag'
     required: false
@@ -93,7 +93,7 @@ inputs:
   inputallfiles:
     description: 'upload dependency file'
     required: false
-    default: ''
+    default: '0'
   supportedfolderPath:  # id of input
     description: 'Supported File Folder'
     required: false
