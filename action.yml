@@ -106,6 +106,10 @@ inputs:
     description: 'Data Model Id'
     required: false
     default: '0'  
+  testRunByTestName:
+    description: 'testRunByTestName'
+    required: false
+    default: 'false'
   
 runs:
   using: 'docker'
