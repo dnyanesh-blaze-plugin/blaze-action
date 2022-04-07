@@ -107,9 +107,13 @@ inputs:
     required: false
     default: '0'  
   testRunByTestName:
-    description: 'testRunByTestName'
+    description: 'test Run By Test Name'
     required: false
     default: 'false'
+  webhookURL:
+    description: 'azure team web hook url'
+    required: false
+    default: 'null'
   
 runs:
   using: 'docker'
