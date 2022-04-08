@@ -110,6 +110,10 @@ inputs:
     description: 'test Run By Test Name'
     required: false
     default: 'false'
+  ignoreSLA:
+    description: 'job always success'
+    required: false
+    default: 'false'
   webhookURL:
     description: 'azure team web hook url'
     required: false
