@@ -118,7 +118,7 @@ inputs:
     description: 'azure team web hook url'
     required: false
     default: 'null'
-  enablePublicReportUrl:
+  enablePublicReportURL:
     description: 'azure team web hook url'
     required: false
     default: 'false'
