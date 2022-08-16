@@ -78,7 +78,7 @@ inputs:
     description: 'report name'
     required: false
     default: 'null'
-  note:
+  notes:
     description: 'note'
     required: false
     default: 'null'
