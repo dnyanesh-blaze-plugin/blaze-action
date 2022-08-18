@@ -10,7 +10,7 @@ inputs:
     description: 'API Secret'
     required: true
     default: 'Test'
-  testId:  # id of input
+  testID:  # id of input
     description: 'Test Id'
     required: true
     default: '0'
@@ -18,7 +18,7 @@ inputs:
     description: 'Test name for creating new test'
     required: false
     default: '0'
-  projectId:  # id of input
+  projectID:  # id of input
     description: 'Project Id'
     required: false
     default: '0'
