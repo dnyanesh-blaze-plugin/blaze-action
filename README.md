@@ -17,6 +17,6 @@ This action allows you to run Blazemeter existing Test
 
 uses: dnyanehblazerunner/BlazeAction@v1
 with:
-   apikey: 'xxx'
-   apisecret: 'xxx'
-   testid: 'xxx'
+   apikey: ''
+   apisecret: ''
+   testid: ''
