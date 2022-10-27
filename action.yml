@@ -2,31 +2,31 @@
 name: 'BlazeAction'
 description: 'Run Blazemeter Test from GitHub Action'
 inputs:
-  apiKey:  # id of input
+  apiKey: 
     description: 'API Key'
     required: true
     default: 'Test'
-  apiSecret:  # id of input
+  apiSecret:
     description: 'API Secret'
     required: true
     default: 'Test'
-  testID:  # id of input
-    description: 'Test Id'
+  testID: 
+    description: 'Test ID'
     required: true
     default: '0'
-  testName:  # id of input
+  testName: 
     description: 'Test name for creating new test'
     required: false
     default: '0'
-  projectID:  # id of input
-    description: 'Project Id'
+  projectID: 
+    description: 'Project ID'
     required: false
     default: '0'
-  inputStartFile:  # id of input
+  inputStartFile: 
     description: 'Start file for create test'
     required: false
     default: 'null'
-  createTest:  # id of input
+  createTest: 
     description: 'Create test flag'
     required: false
     default: 'false'
@@ -58,7 +58,7 @@ inputs:
     description: 'functionaltest'
     required: false
     default: 'false'
-  modelData:  # id of input
+  modelData: 
     description: 'Data to be updated in JSON String format'
     required: false
     default: '{}'
@@ -79,7 +79,7 @@ inputs:
     required: false
     default: 'null'
   notes:
-    description: 'note'
+    description: 'notes'
     required: false
     default: 'null'
   iterationsConfig:
@@ -94,18 +94,6 @@ inputs:
     description: 'upload dependency file'
     required: false
     default: 'null'
-  supportedfolderPath:  # id of input
-    description: 'Supported File Folder'
-    required: false
-    default: '0'
-  workspaceid:  # id of input
-    description: 'Workspace Id'
-    required: false
-    default: '0'
-  datamodelid:  # id of input
-    description: 'Data Model Id'
-    required: false
-    default: '0'  
   testRunByTestName:
     description: 'test Run By Test Name'
     required: false
@@ -125,4 +113,4 @@ inputs:
   
 runs:
   using: 'docker'
-  image: 'Dockerfile' 
+  image: 'Dockerfile'
