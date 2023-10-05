@@ -106,6 +106,10 @@ inputs:
     description: 'azure team web hook url'
     required: false
     default: 'null'
+   webhookURLSlack:
+    description: 'slack web hook url'
+    required: false
+    default: 'null'
   enablePublicReportURL:
     description: 'azure team web hook url'
     required: false
